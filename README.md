@@ -1,5 +1,7 @@
 # DeepSeek Harness 插件制作与安装规范
 
+[简体中文](README.md) | [English](README.en.md)
+
 本文适用于希望在 DeepSeek Harness（DSH）中开发、分发和安装插件的项目。这里的“插件包”指可由 DSH profile 管理器安装的 npm 包；通常以 bundle 为分发边界，bundle 负责声明配置 patch，并可组合一个或多个 Cordis 插件。
 
 ## 1. 先确定插件形态
